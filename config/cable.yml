@@ -6,4 +6,4 @@ test:
 
 production:
   adapter: redis
-  url: Rails.config.action_cable_redis_url
+  url: <%=Rails.config.action_cable_redis_url%> 
